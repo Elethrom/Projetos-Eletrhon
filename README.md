@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELETRHOM</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; background-color: #f4f4f9; margin: 0; padding: 0; }
+        header { background-color: #004aad; color: #fff; text-align: center; padding: 50px 20px; }
+        header h1 { font-size: 3.5rem; margin: 0; color: #fff; }
+        .container { max-width: 1200px; margin: 20px auto; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+        h1, h2 { color: #004aad; }
+        .services { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .service-item { background-color: #e6efff; padding: 15px; border-left: 5px solid #004aad; border-radius: 5px; }
+        footer { background-color: #004aad; color: #fff; text-align: center; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ELETRHOM</h1>
+        <p>Especialistas em SPDA, Telecomunicações, Processos CEMIG e Elétrica</p>
+    </header>
+
+    <div class="container">
+        <h2>Quem Somos</h2>
+        <p>A Elethrom é uma empresa especializada em soluções elétricas, oferecendo projetos e serviços em SPDA, telecomunicações e processos relacionados à CEMIG. Com experiência e profissionalismo, garantimos segurança e eficiência em todos os nossos projetos.</p>
+
+        <h2>Nossos Serviços</h2>
+        <div class="services">
+            <div class="service-item">
+                <h3>SPDA (Sistema de Proteção contra Descargas Atmosféricas)</h3>
+                <p>Projetos, instalação e manutenção de sistemas de proteção contra raios, assegurando a segurança de edificações e pessoas.</p>
+            </div>
+            <div class="service-item">
+                <h3>Telecomunicações</h3>
+                <p>Soluções para infraestrutura de comunicação, cabeamento estruturado e instalação de redes.</p>
+            </div>
+            <div class="service-item">
+                <h3>Processos CEMIG</h3>
+                <p>Assessoria completa para regularização e aprovação de projetos elétricos junto à CEMIG.</p>
+            </div>
+            <div class="service-item">
+                <h3>Projetos Elétricos</h3>
+                <p>Desenvolvimento de projetos elétricos residenciais, comerciais e industriais com foco na segurança e eficiência energética.</p>
+            </div>
+        </div>
+
+        <h2>Entre em Contato</h2>
+        <p>Estamos prontos para ajudar no seu projeto! Entre em contato conosco para mais informações e orçamentos.</p>
+        <p>Email: eletrhom@gmail.com.br<br>Telefone: (31) 98581-7483</p>
+    </div>
+
+    <footer>
+        &copy; 2025 Elethrom - Todos os direitos reservados.
+    </footer>
+</body>
+</html>
